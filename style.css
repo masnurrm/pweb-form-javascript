@@ -1,0 +1,49 @@
+.head{
+    width : 50% ;
+}
+
+form{
+    display: block;
+    margin-top: 2em;
+    border: 1px solid black ;
+    width: 50%
+}
+
+input[type = text],[type = password],[type = date]{
+    width : 100%;
+    padding : 8px, 20px ;
+    margin : 8px 0;
+    box-sizing : border-box;
+}
+
+.container{
+    padding: 16px;
+}
+
+.login{
+    display : table;
+    width : 100%;
+}
+
+.signup{
+    display : table;
+    width : 100%;
+}
+
+.Register{
+    width : 50%;
+    cursor : pointer;
+    color : black ;
+}
+
+.SignUp {
+    width : 50%;
+    cursor : pointer;
+    color : black;
+}
+
+.Login{
+    width : 50%;
+    cursor : pointer;
+    color : black;
+}

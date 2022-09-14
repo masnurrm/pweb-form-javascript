@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Form - Nur Muhammad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#eab308" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <h3>JavaScript Sign Up Validation Form</h3>
+    </div>
+    <div class="container">
+        <form name = "fsignup" action = "two.html" method = "post">
+        <div class = "container">
+            <label><b>Name</b></label>
+            <input type= text id= "uname" placeholder= "Enter name">
+
+            <label><b>Email</b></label>
+            <input type= text id= "email" placeholder= "Enter email">
+
+            <label><b>Password</b></label>
+            <input type = password id = "pwd" placeholder = "Enter password">
+
+            <label><b>Confirm Password</b></label>
+            <input type = password id = "cpwd" placeholder = "Enter password once again">
+
+            <label><b>Date of birth :</b></label>
+            <input type = date id = "date" placeholder = "Enter date of birth">
+            
+            <div class = "signup"> 
+                <input type = "button" class = "Register" value = "Register" onclick = "validateSignUp()">
+                <input type = "button" class = "Login" value = "Login" onclick="login()">
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
